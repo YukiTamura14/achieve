@@ -1,3 +1,2 @@
-masterブランチで書きました
-Aブランチで書きました
 
+create on b branch
