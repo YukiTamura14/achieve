@@ -1,0 +1,42 @@
+
+
+.tableHead {
+  width: 150px;
+  padding-right: 30px;
+  height: 7rem;
+  text-align: right;
+  vertical-align: middle;
+}
+.tableData {
+  vertical-align: middle;
+}
+.tableData input {
+    width: 480px;
+}
+.tableData input.maleFemale{
+  width: 13px;
+  vertical-align: middle;
+}
+
+/* #maleFemale {
+  text-align: left;
+} */
+
+.tableTextArea {
+  width: 480px;
+}
+
+input.submitButton {
+  background-color: #4169e1;
+  font-size: 1.8rem;
+  padding: 7px;
+  color:#fff;
+  border-style: none;
+}
+
+.form p {
+  text-align: center;
+}
+.form p input:hover {
+  opacity: 0.5;
+}
