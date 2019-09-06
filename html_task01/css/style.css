@@ -50,7 +50,9 @@ li {
 .image_area {
   width: 100%;
 }
-
+.side_menu ul {
+  padding-left: 0;
+}
 .side_menu li {
   background-color: #F5B4B3;
   height: 6rem;

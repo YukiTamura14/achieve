@@ -34,8 +34,11 @@ header {
 .headerMenu li.left {
   float: left;
 }
-.headerMenu li.right {
+.rightGroup {
   float: right;
+}
+.right {
+  float: left;
 }
 
 header ul:after {
