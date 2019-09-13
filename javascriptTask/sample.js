@@ -28,11 +28,24 @@ $(document).ready(function(){
   function get_achievement(){
     let score = score_indicate();
     // let score = $("#average_indicate").text();
-    let rank = "A"
-    if(score < 80 && score >= 60){
+    // let rank = "A"
+    // if(score < 80 && score >= 60){
+    //   rank = "B";
+    // }
+    // else if(score < 60 && score >= 40) {
+    //   rank = "C";
+    // }
+    // else{
+    //   rank = "D";
+    // }
+    let rank;
+    if(score >= 80){
+      rank = "A";
+    }
+    else if(score >= 60) {
       rank = "B";
     }
-    else if(score < 60 && score >= 40) {
+    else if(score >= 40){
       rank = "C";
     }
     else{
